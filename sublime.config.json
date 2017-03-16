@@ -1,0 +1,19 @@
+{
+  "color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "font_size": 16,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "shift_tab_unindent": true,
+  "spacegray_sidebar_font_small": true,
+  "spacegray_sidebar_tree_small": true,
+  "spacegray_tabs_auto_width": true,
+  "spacegray_tabs_font_small": true,
+  "spacegray_tabs_normal": true,
+  "tab_size": 2,
+  "theme": "Spacegray.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}
