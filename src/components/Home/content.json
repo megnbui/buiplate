@@ -1,0 +1,9 @@
+{
+  "title": "About Me",
+  "description": "I enjoy special projects in addition to feature work and consider it a high priority for my career development. I value knowing why to do things as a driver for what or how to do things. Special projects help build knowledge across the organization by interfacing with different teams directly and within the code base as you have to understand how it works. They can be playgrounds for experimenting with new technologies that can be shared with the team so everyone can learn and grow.",
+  "values": {
+    "Seek understanding": "Why we do things is an important driver for what or how we do things. It informs the constant trade-offs between time, quality, and comprehensiveness -- the band-aid or the cure.",
+    "Be better today than yesterday": "Not only should we learn from our mistakes and avoid repeating them, we should pro-actively study the foundational knowledge and evolving best practices that prevent mistakes in the first place",
+    "Be humble and compassionate": "Applied to oneself, one can always learn more or do what one has already learned more efficiently. Applied outwardly, the different life experiences of our peers means there is always something that can be learned from every one else, no matter if they have 0 years of experience or 100"
+  }
+}
