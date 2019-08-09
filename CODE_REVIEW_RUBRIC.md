@@ -76,12 +76,44 @@ Reference: https://github.com/accesscode-2-1/user-manual/blob/master/code-revie
 ## Readability
 With our build process, minification and optimizations can happen programmatically as part of a task runner. To that end, source files should prioritize a developer touching the file the first time with limited knowledge of the system at large.
 
-### Is human-readable
+### Human-readable
 
 * Avoids jargon unless documented
 * Avoids shorthand/acronyms unless documented
 * Chunks related logic into well-named functions
 * Chunks computed values into well-named variables
+
+```
+// Bad
+if ((!isLoading && results.length === 0) || isError) {
+  ...
+}
+```
+
+```
+// Good
+const noResults = !isLoading && results.length === 0;
+
+if (noResults || isError) {
+  ...
+}
+```
+
+* Use white-space liberally to help dynamic values stand out
+
+
+```
+// Bad
+function({value}){
+  return value;
+};
+```
+```
+// Good
+function ({ value }) {
+  return value;
+};
+```
 
 ### Consistency
 
@@ -170,7 +202,8 @@ Does not require extensive knowledge about the overall system in order to contri
 * Avoid unnecessary rerenders by avoiding nested prop structures, objects, and arrays. Prefer primitives, which have consistent references and can be shallowly compared to take advantage of PureComponent optimizations.
 
 ## Efficiency
-Uses appropriate data structures
+* Uses appropriate data structures
+* Uses robust third-party solutions, such as lodash, when appropriate
 
 ## Meets Business Goals
 

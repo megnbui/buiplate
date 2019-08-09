@@ -1,0 +1,14 @@
+{
+  "moduleDirectories": ["node_modules", "src"],
+  "moduleFileExtensions": ["js", "jsx"],
+  "modulePathIgnorePatterns": ["dist"],
+  "testMatch": ["**/__tests__/*.test.js"],
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+    "\\images$": "<rootDir>/__mocks__/fileMock.js",
+    "^.+\\.less$": "identity-obj-proxy",
+  },
+  "coverageDirectory": "<rootDir>/__tests__/coverage",
+  "setupFiles": ["raf/polyfill", "babel-polyfill"],
+  "setupTestFrameworkScriptFile": "<rootDir>/__tests__/test-setup.js"
+}
