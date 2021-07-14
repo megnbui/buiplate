@@ -1,0 +1,11 @@
+code --install-extension alexkrechik.cucumberautocomplete
+code --install-extension CodeStream.codestream
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eg2.vscode-npm-script
+code --install-extension esbenp.prettier-vscode
+code --install-extension fabiospampinato.vscode-diff
+code --install-extension hashicorp.terraform
+code --install-extension mohsen1.prettify-json
+code --install-extension ms-vscode.sublime-keybindings
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension redhat.vscode-yaml
