@@ -26,7 +26,6 @@ Since we know that we are always improving, it stands to reason that some code m
 
 Do not be afraid to give new hires special projects where they can show off their skills immediately while they get to know the codebase. If they are given a feature, allow them to implement it within their comfort zone. Ask them to describe their approach. After learning from their contribution, we can either take steps to incorporate wonderful things into the remainder of the codebase, or take the opportunity to illustrate comparatively or within the unique constraints of the project at hand why it should be done differently.
 
-
 ## Guild Meeting
 
 ### Have an agenda
